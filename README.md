@@ -21,8 +21,6 @@ O projeto inclui as seguintes funcionalidades:
 
 - **Multiplas Páginas**: Estruturação do projeto em mais de uma página, permitindo uma navegação rica e variada.
 
-## Estrutura do Projeto
 
-O projeto é composto por diversos arquivos HTML, cada um demonstrando diferentes funcionalidades. A estrutura básica do projeto é a seguinte:
 
 
