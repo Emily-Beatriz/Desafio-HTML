@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu contato</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./indexP.html">Início</a></li>
+      </ul>
+    </nav>
+    <form action="./thank-you.html">
+      <div>
+        <label for="fullName">Nome Completo</label>
+        <input
+          id="fullName"
+          type="text"
+          required
+          placeholder="Escreva seu nome"
+        />
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="Escreva seu E-mail"
+        />
+      </div>
+      <div>
+        <label for="passaword">Senha</label>
+        <input
+          id="passaword"
+          type="password"
+          required
+          placeholder="Escreva sua senha"
+      </div>
+      <div>
+        <label>Gênero</label>
+        <div>
+          <input type="radio" id="male" name="gender" value="Masculino" />
+          <label for="male">Masculino</label>
+        </div>
+
+        <div>
+          <input type="radio" id="female" name="gender" value="Feminino" />
+          <label for="female">Feminino</label>
+
+          <div>
+            <input type="radio" id="other" name="gender" value="Outro"/>
+            <label for="other">Outro</label>
+          </div>
+        </div>
+
+        <div>
+          <label>Quais serviços quer contratar?</label>
+          <div>
+            <div>
+              <input  type="checkbox" id="landing_page" name="landing_page"/>
+              <label for="landing_page">Criação de página de venda</label>
+          </div>
+
+          <div>
+            <input  type="checkbox" id="aplicativos" name="aplicativos"/>
+            <label for="aplicativos">Criação de aplicatvivos</label>
+        </div>
+
+        <div>
+          <input  type="checkbox" id="formatação_de_computador" name="formatação_de_computador"/>
+          <label for="formatação_de_computador">Formatação de computador</label>
+      </div>
+
+      
+      <div>
+        <label>Sua mensagem</label>
+
+        <div>
+          <textarea></textarea>
+        </div>
+      </div>
+
+
+        <div>
+        
+            <input type="submit" value="Finalizar" />
+            <input type="reset"  value="Limpar" />
+          
+        
+        </div>
+
+      </div>
+    </form>
+  </body>
+</html>
