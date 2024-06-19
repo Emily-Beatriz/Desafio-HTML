@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {"src": "/", "dest": "/indexP.html"},
+     {"src": "/contato", "dest": "contato.htm"},
+     {"src": "/thank-you", "dest": "thank-you.htm"},
+  ] 
+}
+    
